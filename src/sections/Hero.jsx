@@ -33,8 +33,7 @@ const Hero = () => {
                     {words.map((word, index) => (
                       <span
                         key={index}
-                        className="flex items-center md:gap-3 gap-1 pb-2"
-                      >
+                        className="flex items-center md:gap-3 gap-1 pb-2">
                         <img
                           src={word.imgPath}
                           alt="person"

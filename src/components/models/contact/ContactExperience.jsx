@@ -27,8 +27,7 @@ const ContactExperience = () => {
         <mesh
           receiveShadow
           position={[0, -1.5, 0]}
-          rotation={[-Math.PI / 2, 0, 0]}
-        >
+          rotation={[-Math.PI / 2, 0, 0]}>
           <planeGeometry args={[30, 30]} />
           <meshStandardMaterial color="#a46b2d" />
         </mesh>
